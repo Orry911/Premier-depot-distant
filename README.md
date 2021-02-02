@@ -2,6 +2,7 @@
 
 ## Github, le drive du dev ?
 
+Un SCM est un source code manager 
 
 
 ## Configuration de git en local 
