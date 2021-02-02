@@ -2,7 +2,8 @@
 
 ## Github, le drive du dev ?
 
-Un SCM est un source code manager !
+Un SCM est un source code manager, c'est un outil qui permet à plusieurs développeurs de travailler sur un même projet tout en laissant
+une trace de toutes les actions et modifications du code source.
 
 
 ## Configuration de git en local 
