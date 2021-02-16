@@ -3,6 +3,25 @@ header {
     background-color:rgb(34, 35, 36); /*Couleur de fond*/
     text-align:center;/*texte centré*/
   }
+main {
+    background-color:rgb(34, 35, 36);
+    color: white;
+    border: solid 2px purple;
+    }
+blockquote {
+        margin: 0;
+    }
+    blockquote p {
+        padding: 15px;
+        background:gainsboro;
+        border-radius: 5px;
+        color: black;
+        width: max-content;
+        border:1px solid purple;
+    }
+.main-title {
+    text-decoration: underline solid 2px purple;
+}
 .menu {
     margin: 0;
     padding: 0;
@@ -19,3 +38,20 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;/*Police d'écriture*/
     width: 325px;/*Largeur du contenu de la zone*/
   }
+.align { /*Cette classe sert à aligner les éléments*/
+    display: inline;
+}
+.boxborder {
+    border: solid 2px purple;
+    width: 360px;
+    height: 28px;
+}
+strong {
+    text-shadow:black 0.1em 0.1em 0.2em /* a garder pour les hovers*/
+}
+h2 {
+    font-size: 18px;
+}
+h3 {
+    font-size: 15px;
+}

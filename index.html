@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"> <!--On indique au fichier html la fiche CSS qu'on veut lui associer-->
     <title>site de test</title>
 </head>
@@ -20,15 +19,45 @@
         </div>
     </header>
     <main role="main"><!--Principal content--><!--On attribue le rôle unique "main"-->
-        <h1>Les Titres</h1><!--Titre de niveau 1-->
-            <p>Il existe 6 niveaux de titres en HTML<!--Paragraphe-->
-                <h1> h1 </h1>
-                <h2> h2 </h2>
-                <h3> h3 </h3>
-                <h4> h4 </h4>
-                <h5> h5 </h5>
-                <h6> h6 </h6>
-            </p>
+        <section id="HTML">
+            <h1 class="main-title">HTML</h1><!--Titre de niveau 1-->
+            <h2>Basics</h2>
+            <h3>WTF is HTML ?</h3>
+                <p>
+                    <strong>L'HyperText Markup Language HTML</strong>, désigne un type de langage informatique descriptif. Il s'agit plus précisément d'un <strong>format de données</strong> utilisé dans l'univers d'Internet pour la <strong>mise en forme</strong> des pages Web.<br>
+                    Il permet, entre autres, <strong>d'écrire de l'hypertexte</strong>, mais aussi <strong>d'introduire des ressources multimédias</strong> dans un contenu.
+                    Développé par le W3C et le WHATWG, le format ou langage HTML est apparu dans les années 1990.<br>Il a progressivement subi des modifications et propose depuis 2014 une version HTML5 plus aboutie.
+                </p>
+                <p>
+                    L'HTML est ce qui permet à un créateur de sites Web de gérer la manière dont le contenu de ses pages Web va s'afficher sur un écran, via le navigateur.<br>
+                    Il <strong>repose sur un système de balises</strong> permettant de <strong>titrer</strong>, <strong>sous-titrer</strong>, <strong>mettre en gras</strong>, etc., du texte et d'introduire des éléments interactifs comme des images, des liens, des vidéos...
+                </p>
+            <h3>Headings</h3>
+                <p>
+                    We have six headings level in <strong>HTML</strong> : <br><!--Paragraphe-->
+                    <div class="boxborder">
+                    <h1 class="align"> Titre 1 </h1> <h2 class="align"> Titre 2 </h2> <h3 class="align"> Titre 3 </h3> 
+                    <h4 class="align"> Titre 4 </h4> <h5 class="align"> Titre 5 </h5> <h6 class="align"> Titre 6 </h6>
+                    </div> <br>
+                    we type "h" for "headings",followed by a number (from 1 to 6), always between brackets "<".
+                </p>
+            <h3>Blockquotes<h3>
+                <p>
+                    The HTML blockquote Element <strong>indicates</strong> that the enclosed text is <strong>an extended quotation</strong>. Usually, this is rendered visually by indentation.<br>
+                    A URL for the source of the quotation may be given using the <strong>cite attribute</strong>, while a text representation of the source can be given using the <strong>cite element.</strong>
+                </p>
+            <figure>
+                <blockquote>
+                    <p> "Nuaagggggeee magggiquuueeee" </p>
+                </blockquote>
+                <figcaption>-Kakaroto</figcaption><cite>Dragon Ball Z</cite>
+            </figure>
+            <h3>Block and inline boxes</h3>
+                <p>
+                    <strong>Everything in CSS has a box around it</strong>, and understanding these boxes is key to being able to create layouts with CSS, or to align items with other items.<br>
+                    These characteristics refer to <strong>how the box behaves</strong> in terms of page flow, and in relation to other boxes on the page.<br>In CSS we broadly have two types of boxes,<strong>block boxes</strong> and <strong> inline boxes. </strong>
+                </p>
+        </section>
 
 
 
