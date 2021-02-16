@@ -1,0 +1,21 @@
+header {
+    padding:20px 0px;/*Marge verticale*/
+    background-color:rgb(34, 35, 36); /*Couleur de fond*/
+    text-align:center;/*texte centré*/
+  }
+.menu {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+  }
+.menu-item {
+    display: inline;/*Positionnement en ligne*/
+    text-transform: capitalize;/*Change la forme du texte,ici des majuscules en début de mot avec l'attribut CAPITALIZE*/
+    background: rgba(14, 13, 13, 0.027);/*Couleur de fond*/
+    margin-right: 11px;/*Marge exterieure poussée de gauche à droite de 11px*/
+    outline: 2px solid purple;/*Contour*/
+    color: aliceblue;/*Couleur du texte*/
+    font-size: 25px;/*Taille du texte*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;/*Police d'écriture*/
+    width: 325px;/*Largeur du contenu de la zone*/
+  }

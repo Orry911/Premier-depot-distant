@@ -1,0 +1,17 @@
+# Commentaire: le fichier .editorconfig va nous permettre de mettre en place des règles de codage 
+
+# Puisque l'on peut avoir plusieurs fichiers de config et donc plusieurs qui peuvent entrer en conflit
+# on va donc indiquer a VSCode que ce fichier est le fichier racine "ROOT"
+root = true
+
+# On va appliquer à tous les fichiers les règles que l'on s'apprête à écrire.
+[*]
+
+# Règles
+
+# Une indentation de type "SPACE" de "2" unités
+indent_style = space
+idnent_size = 2
+
+# On va ajouter un retour à la ligne à chaque écriture de code de manière automatique
+insert_final_newline = true
