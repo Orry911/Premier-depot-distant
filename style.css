@@ -1,5 +1,5 @@
 header {
-    padding:20px 0px;/*Marge verticale*/
+    padding:20px 0px;
     background-color:rgb(34, 35, 36); /*Couleur de fond*/
     text-align:center;/*texte centré*/
   }
@@ -19,6 +19,18 @@ blockquote {
         width: max-content;
         border:1px solid purple;
     }
+strong {
+        text-shadow:black 0.1em 0.1em 0.05em /* a garder pour les hovers*/
+    }
+h2 {
+        font-size: 18px;
+    }
+h3 {
+        font-size: 15px;
+    }
+a:hover {
+    text-shadow:black 0.1em 0.1em 0.05em
+}
 .main-title {
     text-decoration: underline solid 2px purple;
 }
@@ -46,12 +58,15 @@ blockquote {
     width: 360px;
     height: 28px;
 }
-strong {
-    text-shadow:black 0.1em 0.1em 0.2em /* a garder pour les hovers*/
+.block {
+    display: block;
+    border:solid 3px white;
+    width: 225px;
+    text-align: center;
+    padding-left: 0px;
 }
-h2 {
-    font-size: 18px;
-}
-h3 {
-    font-size: 15px;
+.block-li {
+    list-style: none;
+    border: purple 2px solid;
+    padding-left: 0px;
 }
